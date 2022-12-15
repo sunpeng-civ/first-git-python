@@ -28,4 +28,6 @@ time04 = time.time()
 
 print ("运算时间：" + str(time04-time03))
 
+print ("性能倍数" + str((time02-time01)/(time04-time03)))
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
